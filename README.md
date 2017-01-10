@@ -41,18 +41,18 @@ README.md index_original.js node_modules template
 Now, to remove the ``\r``:
 
 ```
-cat index.js | tr -d '\r' > index_2.js
+$ cat index.js | tr -d '\r' > index_2.js
 
-starignus@ariadnasmacbook
+mymack@macbook
 ~/.npm-packages/lib/node_modules/markdown-to-slides
 $ cp index_2.js index.js 
 
-starignus@ariadnasmacbook~/.npm-packages/lib/node_modules/markdown-to-slides$ rm index_2.js
+mymack@macbook~/.npm-packages/lib/node_modules/markdown-to-slides$ rm index_2.js
 ```
 
 * Now you can run the markdown-to-slide:
 ```bash
-tarignus@ariadnasmacbook ~/Documents/HorizonCourse/Extra_info
+mymack@macbook ~/Documents/HorizonCourse/Extra_info
 $ markdown-to-slides Test.md -o slideshow.html
 10:42:53 AM: "Test.md" written in "slideshow.html"```
 
